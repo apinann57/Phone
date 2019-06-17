@@ -1,0 +1,116 @@
+@import './PhoneInfoBar.css';
+
+.home{
+    background-size: cover !important;
+    background-position: center !important;
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: gray;
+  }
+  .warningMess{
+    background-color: white;
+    position: absolute;
+    left: 12px;
+    right: 12px;
+    top: 34px;
+    min-height: 64px;
+    display: flex;
+    padding: 12px;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+  }
+  .warningMess .warningMess_icon{
+    display: flex;
+    width: 16%;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+  }
+  .warningMess .warningMess_icon .fa {
+    text-align: center;
+    color: #F94B42;
+  }
+  .warningMess .warningMess_content{
+    padding-left: 12px;
+  }
+  .warningMess_title {
+    font-size: 20px;
+  }
+  .warningMess_mess {
+    font-size: 16px;
+  }
+  
+  .home_buttons{
+    display: flex;
+    padding: 0 16px; 
+    width: 100%;
+    bottom:1px;
+    position: absolute;
+    align-items: flex-end;
+    flex-flow: row;
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+    justify-content: space-between;
+    transition: all 0.5s ease-in-out;
+  }
+  button{
+    position: relative;
+    margin: 0px;
+    border: none;
+    width: 80px;
+    height: 110px;
+    color: white;
+    background-size: 64px 64px;
+    background-position: center 6px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    font-size: 14px;
+    padding-top: 72px;
+    font-weight: 700;
+    text-shadow: -1px 0 0 rgba(0,0,0, 0.8), 
+               1px 0 0 rgba(0,0,0, 0.8),
+               0 -1px 0 rgba(0,0,0, 0.8),
+               0 1px 0 rgba(0,0,0, 0.8);
+    text-align: center;
+  }
+  
+  
+  button .puce{
+    position: absolute;
+    display: block;
+    background-color: #1450b8;
+    font-size: 14px;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid white;
+    bottom: 32px;
+    right: 12px;
+  }
+  button.select, button:hover{
+    background-color: rgba(255,255,255, 0.7);
+    border-radius: 12px;
+  }
+  
+  .btn_menu_ctn{
+    width: 100%;
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-content: center;
+  }
+  .btn_menu {
+    height: 50px;
+  }
+  

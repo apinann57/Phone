@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="./static/css/PhoneBaseStyle.css">
+  <link rel="stylesheet" href="./static/css/PhoneMessages.css">
+</head>
+
+<body>
+
+  <div style="height: 100vh; width: 100vw;">
+    <div data-v-64f456c2="" class="notifications"></div>
+    <div style="zoom: 100%;">
+      <div class="phone_wrapper">
+        <div class="phone_coque" style="background-image: url(./static/img/coque/s8.png);"></div>
+        <div id="app" class="phone_screen">
+          <div data-v-a3afb968="" class="phone_app messages">
+            <div data-v-79adf57d="" data-v-a3afb968="" class="phone_title_content hasInfoBare"
+              style="background-color: rgb(92, 107, 192); color: rgb(255, 255, 255);">
+              <div data-v-a12dd79a="" data-v-79adf57d="" class="phone_infoBare barre-header"><span data-v-a12dd79a=""
+                  class="reseau">Gannon</span> <span data-v-a12dd79a="" class="time"><span data-v-329a4c83=""
+                    data-v-a12dd79a="">19:30</span></span>
+                <hr data-v-a12dd79a="" class="batterie1">
+                <hr data-v-a12dd79a="" class="batterie2">
+                <hr data-v-a12dd79a="" class="barre1">
+                <hr data-v-a12dd79a="" class="barre2">
+                <hr data-v-a12dd79a="" class="barre3">
+                <hr data-v-a12dd79a="" class="barre4">
+              </div>
+              <div data-v-79adf57d="" class="phone_title" style="background-color: rgb(92, 107, 192);"><button
+                  data-v-79adf57d="" class="btn-back"  onclick="mp.trigger('getMessageApp')"><i data-v-79adf57d="" class="fa fa-arrow-left"></i></button>
+                <div  id="nameTarget">
+                  000000
+                </div>
+                  
+              </div>
+            </div>
+            <!----> <textarea data-v-a3afb968="" class="copyTextarea"></textarea>
+            <div data-v-a3afb968="" id="sms_list">
+              <!-- <div data-v-a3afb968="" class="sms"><span data-v-a3afb968="" class="sms_message sms_me sms_other"
+                  style="background-color: rgb(92, 107, 192); color: rgb(255, 255, 255);"><span data-v-a3afb968="">Salut
+                    sa va ?!!!</span> <span data-v-a3afb968=""><time data-v-a3afb968=""
+                      datetime="Mon Jun 10 2019 19:19:53 GMT+0700 (Indochina Time)" title="6/10/2019, 7:19:53 PM"
+                      class="sms_time" style="background-color: rgb(92, 107, 192); color: rgb(255, 255, 255);">il y a 11
+                      minutes</time></span></span></div>
+              <div data-v-a3afb968="" class="sms"><span data-v-a3afb968="" class="sms_message sms_me"><span
+                    data-v-a3afb968="" id="fortest">Oui est toi ?</span> <span data-v-a3afb968=""><time data-v-a3afb968=""
+                      datetime="Mon Jun 10 2019 19:19:54 GMT+0700 (Indochina Time)" title="6/10/2019, 7:19:54 PM"
+                      class="sms_time">il y a 11 minutes</time></span></span></div> -->
+              <div class="menu-content">
+                <div id="header" class="menu-header"></div>
+                <div id="content" class="menu-body"></div>
+                <div id="options" class="menu-options"></div>
+              </div>
+            </div>
+            <div data-v-a3afb968="" id="sms_write"><input data-v-a3afb968="" type="text" placeholder="Send a message">
+              <div data-v-a3afb968="" class="sms_send"><svg data-v-a3afb968="" height="24" viewBox="0 0 24 24"
+                  width="24">
+                  <path data-v-a3afb968="" d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"></path>
+                  <path data-v-a3afb968="" d="M0 0h24v24H0z" fill="none"></path>
+                </svg></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="./static/js/contact.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.11/lodash.min.js"></script>
+
+</html>
